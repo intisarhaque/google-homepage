@@ -1,0 +1,154 @@
+#header{
+  background: white;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  height: 30px;
+  padding-top: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left:15px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  padding-right: 14px;
+  text-decoration: none;
+}
+.topnav-centered a{
+  float: none;
+  position: absolute;
+  left: 40%;
+  right: 40%;
+}
+.signin {
+    background-color:#4285f4;
+    width: 75px;
+    height: 32px;
+    color: white;
+    font-family: Arial,
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    cursor:pointer;
+ }
+
+#sign{
+  padding-bottom: 10px;
+}
+
+
+
+#middle{
+  position: fixed;
+  background:white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50px;
+  bottom: 50px;
+  width: 100%;
+}
+.middle-items{
+  width: 300px;
+  height: 100px;
+}
+#logo{
+  background: white;
+  text-align: center;
+
+}
+#google-logo{
+  padding-top: 10px;
+}
+
+#search{
+  background: white;
+  width: 500px;
+  height: 80px;
+  text-align: center;
+  position: relative;
+  margin: 0 20px;
+
+
+}
+
+#input-img{
+  margin-top: 25px;
+  position: absolute;
+  left: 20px;
+  cursor: default;
+  height:20px;
+  color: #E6E7E9;
+}
+
+#input-text{
+  border-width: 1pt;
+  border-style: solid;
+  border-color: rgba(201, 202, 201, 0.973);
+  margin-top: 20px;
+  width: 95%;
+  height: 35px;
+  box-sizing: border-box;
+  background: white;
+  padding-left: 27px;
+  border-radius: 50px;
+}
+
+
+#search_buttons{
+  background: white;
+  text-align: center;
+  height: 50px;
+}
+#input-text:hover{
+  box-shadow: 0 0 11px rgba(0,0,0,0.19);
+
+}
+
+.input-button{
+  display: inline-block;
+  margin-top: 2px;
+  border: none;
+  background-color: #F8F9FA;
+  height: 30px;
+  width: 120px;
+  cursor:pointer;
+}
+
+
+#footer{
+  background: #F2F2F2;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  height: 30px;
+  padding-bottom: 20px;
+}
+
+
+
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+    background-color: #eee;
+    line-height: 1.5;
+    min-width: 300px;
+}
